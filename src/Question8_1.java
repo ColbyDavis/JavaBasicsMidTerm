@@ -4,7 +4,7 @@
 public class Question8_1 {
 
     public String myName = "Colby Davis";
-    public int counter;
+    public int counter = 0;
 
     public void replaceCharacters() {
 
@@ -21,11 +21,14 @@ public class Question8_1 {
                     arryChar[i] == 'O' ||
                     arryChar[i] == 'U') {
                 arryChar[i] = '9';
+                counter++;
+
 
             }
             System.out.print(arryChar[i]);
-        }
 
+        }
+        System.out.println("\n"+counter);
 
     }
 }

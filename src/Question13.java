@@ -17,6 +17,7 @@ public class Question13 {
         try {
             instantiation.indentifyClass();
         } catch (Throwable e) {
+
         }
     }
 }
